@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="domain.Nattribute" table="nattribute">
+		<id name="nattribute_id" column="nattribute_id">
+			<generator class="native"></generator>
+		</id>
+		<property name="classification_id"></property>
+		<property name="nattribute_name"></property>
+	</class>
+</hibernate-mapping>

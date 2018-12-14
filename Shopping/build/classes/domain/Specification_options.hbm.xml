@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="domain.Specification_options" table="specification_options">
+		<id name="specification_option_id" column="specification_option_id">
+			<generator class="native"></generator>
+		</id>
+		<property name="specification_id"></property>
+		<property name="specification_group_id"></property>
+		<property name="specification_options_name"></property>
+	</class>
+</hibernate-mapping>

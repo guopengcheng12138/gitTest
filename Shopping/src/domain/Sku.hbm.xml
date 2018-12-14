@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="domain.Sku" table="sku">
+		<id name="sku_id" column="sku_id">
+			<generator class="native"></generator>
+		</id>
+		<property name="spu_id"></property>
+		<property name="sku_name"></property>
+		<property name="cprice"></property>
+		<property name="stock"></property>
+		<property name="shop_id"></property>
+		<property name="release_time"></property>
+		<property name="main"></property>
+	</class>
+</hibernate-mapping>

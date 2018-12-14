@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="domain.Picture" table="picture">
+		<id name="picture_id" column="picture_id">
+			<generator class="native"></generator>
+		</id>
+		<property name="big_url"></property>
+		<property name="middle_url"></property>
+		<property name="small_url"></property>
+		<property name="spu_id"></property>
+	</class>
+</hibernate-mapping>
